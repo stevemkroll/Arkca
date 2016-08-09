@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAFCB6201D5A126C0029E946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB61F1D5A126C0029E946 /* AppDelegate.swift */; };
+		AAFCB6271D5A126C0029E946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFCB6261D5A126C0029E946 /* Assets.xcassets */; };
+		AAFCB6341D5A14EC0029E946 /* Dinos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB6331D5A14EC0029E946 /* Dinos.swift */; };
+		AAFCB6361D5A151D0029E946 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB6351D5A151D0029E946 /* Food.swift */; };
+		AAFCB6381D5A159C0029E946 /* FoodType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB6371D5A159C0029E946 /* FoodType.swift */; };
+		AAFCB63A1D5A15D80029E946 /* Narcotics.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB6391D5A15D80029E946 /* Narcotics.swift */; };
+		AAFCB63D1D5A167E0029E946 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB63C1D5A167E0029E946 /* TabBar.swift */; };
+		AAFCB6401D5A172C0029E946 /* DossierNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB63F1D5A172C0029E946 /* DossierNavBar.swift */; };
+		AAFCB6421D5A17AE0029E946 /* DossierTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB6411D5A17AE0029E946 /* DossierTableView.swift */; };
+		AAFCB6441D5A18530029E946 /* DossierTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB6431D5A18530029E946 /* DossierTableViewCell.swift */; };
+		AAFCB6461D5A18C90029E946 /* DossierDinoInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB6451D5A18C90029E946 /* DossierDinoInfoView.swift */; };
+		AAFCB6491D5A19990029E946 /* TamingNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB6481D5A19990029E946 /* TamingNavBar.swift */; };
+		AAFCB64B1D5A19D00029E946 /* TamingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB64A1D5A19D00029E946 /* TamingView.swift */; };
+		AAFCB64D1D5A1A820029E946 /* NamePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB64C1D5A1A820029E946 /* NamePicker.swift */; };
+		AAFCB64F1D5A1AE50029E946 /* LevelPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB64E1D5A1AE50029E946 /* LevelPicker.swift */; };
+		AAFCB6521D5A1BA60029E946 /* SharedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB6511D5A1BA60029E946 /* SharedData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAFCB61C1D5A126C0029E946 /* Arkca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arkca.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFCB61F1D5A126C0029E946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AAFCB6261D5A126C0029E946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFCB62B1D5A126C0029E946 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAFCB6331D5A14EC0029E946 /* Dinos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dinos.swift; sourceTree = "<group>"; };
+		AAFCB6351D5A151D0029E946 /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		AAFCB6371D5A159C0029E946 /* FoodType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodType.swift; sourceTree = "<group>"; };
+		AAFCB6391D5A15D80029E946 /* Narcotics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Narcotics.swift; sourceTree = "<group>"; };
+		AAFCB63C1D5A167E0029E946 /* TabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		AAFCB63F1D5A172C0029E946 /* DossierNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DossierNavBar.swift; sourceTree = "<group>"; };
+		AAFCB6411D5A17AE0029E946 /* DossierTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DossierTableView.swift; sourceTree = "<group>"; };
+		AAFCB6431D5A18530029E946 /* DossierTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DossierTableViewCell.swift; sourceTree = "<group>"; };
+		AAFCB6451D5A18C90029E946 /* DossierDinoInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DossierDinoInfoView.swift; sourceTree = "<group>"; };
+		AAFCB6481D5A19990029E946 /* TamingNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamingNavBar.swift; sourceTree = "<group>"; };
+		AAFCB64A1D5A19D00029E946 /* TamingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamingView.swift; sourceTree = "<group>"; };
+		AAFCB64C1D5A1A820029E946 /* NamePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamePicker.swift; sourceTree = "<group>"; };
+		AAFCB64E1D5A1AE50029E946 /* LevelPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelPicker.swift; sourceTree = "<group>"; };
+		AAFCB6511D5A1BA60029E946 /* SharedData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFCB6191D5A126C0029E946 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFCB6131D5A126C0029E946 = {
+			isa = PBXGroup;
+			children = (
+				AAFCB61E1D5A126C0029E946 /* Arkca */,
+				AAFCB61D1D5A126C0029E946 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFCB61D1D5A126C0029E946 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB61C1D5A126C0029E946 /* Arkca.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFCB61E1D5A126C0029E946 /* Arkca */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB6311D5A13740029E946 /* Supporting Files */,
+				AAFCB6321D5A14A80029E946 /* Dino Data */,
+				AAFCB63B1D5A16580029E946 /* Tab Bar */,
+				AAFCB63E1D5A16C30029E946 /* Dossier */,
+				AAFCB6471D5A19250029E946 /* Taming */,
+				AAFCB6501D5A1B600029E946 /* Shared Data */,
+			);
+			path = Arkca;
+			sourceTree = "<group>";
+		};
+		AAFCB6311D5A13740029E946 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB61F1D5A126C0029E946 /* AppDelegate.swift */,
+				AAFCB62B1D5A126C0029E946 /* Info.plist */,
+				AAFCB6261D5A126C0029E946 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AAFCB6321D5A14A80029E946 /* Dino Data */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB6331D5A14EC0029E946 /* Dinos.swift */,
+				AAFCB6351D5A151D0029E946 /* Food.swift */,
+				AAFCB6371D5A159C0029E946 /* FoodType.swift */,
+				AAFCB6391D5A15D80029E946 /* Narcotics.swift */,
+			);
+			name = "Dino Data";
+			sourceTree = "<group>";
+		};
+		AAFCB63B1D5A16580029E946 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB63C1D5A167E0029E946 /* TabBar.swift */,
+			);
+			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		AAFCB63E1D5A16C30029E946 /* Dossier */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB63F1D5A172C0029E946 /* DossierNavBar.swift */,
+				AAFCB6411D5A17AE0029E946 /* DossierTableView.swift */,
+				AAFCB6431D5A18530029E946 /* DossierTableViewCell.swift */,
+				AAFCB6451D5A18C90029E946 /* DossierDinoInfoView.swift */,
+			);
+			name = Dossier;
+			sourceTree = "<group>";
+		};
+		AAFCB6471D5A19250029E946 /* Taming */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB6481D5A19990029E946 /* TamingNavBar.swift */,
+				AAFCB64A1D5A19D00029E946 /* TamingView.swift */,
+				AAFCB64C1D5A1A820029E946 /* NamePicker.swift */,
+				AAFCB64E1D5A1AE50029E946 /* LevelPicker.swift */,
+			);
+			name = Taming;
+			sourceTree = "<group>";
+		};
+		AAFCB6501D5A1B600029E946 /* Shared Data */ = {
+			isa = PBXGroup;
+			children = (
+				AAFCB6511D5A1BA60029E946 /* SharedData.swift */,
+			);
+			name = "Shared Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFCB61B1D5A126C0029E946 /* Arkca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFCB62E1D5A126C0029E946 /* Build configuration list for PBXNativeTarget "Arkca" */;
+			buildPhases = (
+				AAFCB6181D5A126C0029E946 /* Sources */,
+				AAFCB6191D5A126C0029E946 /* Frameworks */,
+				AAFCB61A1D5A126C0029E946 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Arkca;
+			productName = Arkca;
+			productReference = AAFCB61C1D5A126C0029E946 /* Arkca.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFCB6141D5A126C0029E946 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SteveMKroll;
+				TargetAttributes = {
+					AAFCB61B1D5A126C0029E946 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AAFCB6171D5A126C0029E946 /* Build configuration list for PBXProject "Arkca" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFCB6131D5A126C0029E946;
+			productRefGroup = AAFCB61D1D5A126C0029E946 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFCB61B1D5A126C0029E946 /* Arkca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFCB61A1D5A126C0029E946 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFCB6271D5A126C0029E946 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFCB6181D5A126C0029E946 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFCB6201D5A126C0029E946 /* AppDelegate.swift in Sources */,
+				AAFCB6441D5A18530029E946 /* DossierTableViewCell.swift in Sources */,
+				AAFCB64B1D5A19D00029E946 /* TamingView.swift in Sources */,
+				AAFCB6521D5A1BA60029E946 /* SharedData.swift in Sources */,
+				AAFCB63A1D5A15D80029E946 /* Narcotics.swift in Sources */,
+				AAFCB64D1D5A1A820029E946 /* NamePicker.swift in Sources */,
+				AAFCB6341D5A14EC0029E946 /* Dinos.swift in Sources */,
+				AAFCB6491D5A19990029E946 /* TamingNavBar.swift in Sources */,
+				AAFCB6461D5A18C90029E946 /* DossierDinoInfoView.swift in Sources */,
+				AAFCB63D1D5A167E0029E946 /* TabBar.swift in Sources */,
+				AAFCB6361D5A151D0029E946 /* Food.swift in Sources */,
+				AAFCB6421D5A17AE0029E946 /* DossierTableView.swift in Sources */,
+				AAFCB6401D5A172C0029E946 /* DossierNavBar.swift in Sources */,
+				AAFCB64F1D5A1AE50029E946 /* LevelPicker.swift in Sources */,
+				AAFCB6381D5A159C0029E946 /* FoodType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AAFCB62C1D5A126C0029E946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAFCB62D1D5A126C0029E946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAFCB62F1D5A126C0029E946 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = Arkca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SteveMKroll.Arkca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AAFCB6301D5A126C0029E946 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = Arkca/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SteveMKroll.Arkca;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFCB6171D5A126C0029E946 /* Build configuration list for PBXProject "Arkca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFCB62C1D5A126C0029E946 /* Debug */,
+				AAFCB62D1D5A126C0029E946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFCB62E1D5A126C0029E946 /* Build configuration list for PBXNativeTarget "Arkca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFCB62F1D5A126C0029E946 /* Debug */,
+				AAFCB6301D5A126C0029E946 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFCB6141D5A126C0029E946 /* Project object */;
+}
