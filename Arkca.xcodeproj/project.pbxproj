@@ -363,6 +363,7 @@
 				AAFCB6301D5A126C0029E946 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
