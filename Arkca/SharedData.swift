@@ -160,11 +160,12 @@ var onesColumn = Int()
 
 var selectedLevel = Int()
 
-var selectedDino = Dino.init(name: " ", foodType: blankFoodType, favoriteKibble: " ", tameable: " ", rideable: " ", saddle: " ", killXP: " ", dossier: " ", drops: [" "], baseAffinity: 0, affinityPerLevel: 0, foodConsumptionRate: 0, consumptionRateMultiplier: 0, baseTorpor: 0, torporPerLevel: 0, torporRecoveryRate: 0, recoveryRateMultiplier: 0, wakingFoodRateMultiplier: nil, wakingFoodAffinityMultiplier: nil, tamingMethod: "standard", image: "blank")
+var selectedDino = Dino.init(name: " ", foodType: blankFoodType, favoriteKibble: " ", tameable: " ", rideable: " ", saddle: " ", dossier: " ", baseAffinity: 0, affinityPerLevel: 0, foodConsumptionRate: 0, consumptionRateMultiplier: 0, baseTorpor: 0, torporPerLevel: 0, torporRecoveryRate: 0, recoveryRateMultiplier: 0, wakingFoodRateMultiplier: nil, wakingFoodAffinityMultiplier: nil, tamingMethod: "standard", image: "blank")
 
-var dossierDino = Dino.init(name: " ", foodType: blankFoodType, favoriteKibble: " ", tameable: " ", rideable: " ", saddle: " ", killXP: " ", dossier: " ", drops: [" "], baseAffinity: 0, affinityPerLevel: 0, foodConsumptionRate: 0, consumptionRateMultiplier: 0, baseTorpor: 0, torporPerLevel: 0, torporRecoveryRate: 0, recoveryRateMultiplier: 0, wakingFoodRateMultiplier: nil, wakingFoodAffinityMultiplier: nil, tamingMethod: "standard", image: "blank")
+var dossierDino = Dino.init(name: " ", foodType: blankFoodType, favoriteKibble: " ", tameable: " ", rideable: " ", saddle: " ", dossier: " ", baseAffinity: 0, affinityPerLevel: 0, foodConsumptionRate: 0, consumptionRateMultiplier: 0, baseTorpor: 0, torporPerLevel: 0, torporRecoveryRate: 0, recoveryRateMultiplier: 0, wakingFoodRateMultiplier: nil, wakingFoodAffinityMultiplier: nil, tamingMethod: "standard", image: "blank")
 
 let dinoList = [
+//    allosaurus
     angler,
     anklyo,
     araneo,
@@ -174,6 +175,53 @@ let dinoList = [
     bronto,
     carbonemys,
     carno,
+//    castoroides
+//    compy
+//    dilo
+//    dimetrodon
+//    dimorphodon
+//    diplodocus
+//    direBear
+//    direWolf
+//    dodo
+//    doedicurus
+//    dunkleosteus
+//    dungBeetle
+//    eurypterid
+//    gallimimus
+//    gigantosaurus
+//    gigantopithecus
+//    ichthy
+//    kairuku
+//    lystrosaurus
+//    mammoth
+//    manta
+//    megaloceros
+//    megalodon
+//    mesopithecus
+//    mosasaurus
+//    onyc
+//    oviraptor
+//    pachy
+//    paracer
+//    parasaur
+//    pelagornis
+//    phiomia
+//    plesiosaur
+//    procoptodon
+//    pteranodon
+//    pulmonoscorpius
+//    quetz
+//    raptor
+//    rex
+//    sabertooth
+//    sarco
+//    spino
+//    stego
+//    terrorBird
+//    titanosaur
+//    trike
+//    woollyRhino
 ]
 
 var foodNames = [String]()

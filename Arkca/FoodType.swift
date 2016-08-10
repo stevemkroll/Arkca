@@ -25,9 +25,9 @@ let carnivore = FoodType.init(name: "carnivore", foodList: [kibble,rawPrime,cook
 let herbivore = FoodType.init(name: "herbivore", foodList: [kibble,crops,mejoBerry,otherBerry,blankFood,blankFood,blankFood])
 let carrion = FoodType.init(name: "carrion", foodList: [spoiledMeat,rawMeat_Carrion,blankFood,blankFood,blankFood,blankFood,blankFood])
 
-let foodType_Arthropluera = FoodType.init(name: "arthropluera", foodList: [brothOfEnlightenment,spoiledMeat,rawMeat_Carrion,blankFood,blankFood,blankFood,blankFood])
+let foodType_Arthropluera = FoodType.init(name: "carrion", foodList: [brothOfEnlightenment,spoiledMeat,rawMeat_Carrion,blankFood,blankFood,blankFood,blankFood])
 
-let foodType_Bronto = FoodType.init(name: "bronto", foodList: [kibble_Bronto,crops,mejoBerry,otherBerry,blankFood,blankFood,blankFood])
+let foodType_Bronto = FoodType.init(name: "herbivore", foodList: [kibble_Bronto,crops,mejoBerry,otherBerry,blankFood,blankFood,blankFood])
 
 
 
