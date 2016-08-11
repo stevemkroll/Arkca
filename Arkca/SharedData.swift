@@ -43,8 +43,8 @@ let avenirTabFont = UIFont(name: "Avenir", size: 10)
 
 let alignCenter = NSTextAlignment.Center
 
-let tabBarIconOn = UIImage(named: "TabBarIconOn")
 let tabBarIconOff = UIImage(named: "TabBarIconOff")
+let tabBarIconOn = UIImage(named: "TabBarIconOn")
 
 var switches = [UISwitch]()
 var foodLabels = [UILabel]()

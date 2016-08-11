@@ -17,21 +17,30 @@ class TabBar: UITabBarController, UITabBarControllerDelegate {
         tabBar.tintColor = whiteColor
         tabBar.translucent = false
         
-        let tamingTab = TamingNavBar(rootViewController: TamingViewController())
-        let tamingIcon = UITabBarItem(title: "Taming", image: tabBarIconOff, selectedImage: tabBarIconOn)
-        
         let dossierTab = DossierNavBar(rootViewController: DossierTableViewController())
-        let dossierIcon = UITabBarItem(title: "Dossier", image: tabBarIconOff, selectedImage: tabBarIconOn)
+        let dossierIcon = UITabBarItem(title: "Dossier", image: tabBarIconOff, tag: 0)
         
-        tamingTab.tabBarItem = tamingIcon
+        let tamingTab = TamingNavBar(rootViewController: TamingViewController())
+        let tamingIcon = UITabBarItem(title: "Taming", image: tabBarIconOff, tag: 1)
+        
         dossierTab.tabBarItem = dossierIcon
+        tamingTab.tabBarItem = tamingIcon
         
         let tabs = [dossierTab,tamingTab]
         
         self.viewControllers = tabs
         
-        tamingIcon.setTitleTextAttributes([NSFontAttributeName:avenirTabFont!], forState: UIControlState.Normal)
         dossierIcon.setTitleTextAttributes([NSFontAttributeName:avenirTabFont!], forState: UIControlState.Normal)
+        dossierIcon.setTitleTextAttributes([NSForegroundColorAttributeName:whiteColor], forState: UIControlState.Selected)
+        dossierIcon.selectedImage = tabBarIconOn
+        
+        dossierIcon.titlePositionAdjustment = UIOffset.init(horizontal: 0, vertical: -2)
+        
+        tamingIcon.setTitleTextAttributes([NSFontAttributeName:avenirTabFont!], forState: UIControlState.Normal)
+        tamingIcon.setTitleTextAttributes([NSForegroundColorAttributeName:whiteColor], forState: UIControlState.Selected)
+        tamingIcon.selectedImage = tabBarIconOn
+        
+        tamingIcon.titlePositionAdjustment = UIOffset.init(horizontal: 0, vertical: -2)
         
     }
 }
