@@ -24,16 +24,45 @@ let blankFoodType = FoodType(name: "blank food type", foodList: [blankFood])
 let carnivore = FoodType(name: "carnivore", foodList: [kibble, rawPrime, cookedPrime, rawMeat, cookedMeat, blankFood, blankFood])
 let herbivore = FoodType(name: "herbivore", foodList: [kibble, crops, mejoBerry, otherBerry, blankFood, blankFood, blankFood])
 let carrion = FoodType(name: "carrion", foodList: [spoiledMeat, rawMeat_Carrion, blankFood, blankFood, blankFood, blankFood, blankFood])
+let omnivore = FoodType(name: "onmivore", foodList: [kibble, rawPrime, cookedPrime, rawMeat, cookedMeat, mejoBerry, otherBerry])
 
 let carnivore_noKibble = FoodType(name: "carnivore", foodList: [rawPrime, cookedPrime, rawMeat, cookedMeat, blankFood, blankFood, blankFood])
-let carnivore_Compy = FoodType(name: "carnivore", foodList: [primeMeat_Compy, blankFood, blankFood, blankFood, blankFood, blankFood, blankFood])
+let herbivore_noKibble = FoodType(name: "herbivore", foodList: [crops, mejoBerry, otherBerry, blankFood, blankFood, blankFood, blankFood])
 
-let herbivore_Bronto = FoodType(name: "herbivore", foodList: [kibble_Bronto, crops, mejoBerry, otherBerry, blankFood, blankFood, blankFood])
-let herbivore_diplodocus = FoodType(name: "herbivore", foodList: [kibble_diplodocus, crops, mejoBerry, otherBerry, blankFood, blankFood, blankFood])
+let foodType_arthropluera = FoodType(name: "carrion", foodList: [brothOfEnlightenment, spoiledMeat, rawMeat_Carrion, blankFood, blankFood, blankFood, blankFood])
 
-let carrion_Arthropluera = FoodType(name: "carrion", foodList: [brothOfEnlightenment, spoiledMeat, rawMeat_Carrion, blankFood, blankFood, blankFood, blankFood])
+let foodType_bronto = FoodType(name: "herbivore", foodList: [kibble_Bronto, crops, mejoBerry, otherBerry, blankFood, blankFood, blankFood])
 
-let omnivore = FoodType(name: "onmivore", foodList: [kibble, rawPrime, cookedPrime, rawMeat, cookedMeat, mejoBerry, otherBerry])
+let foodType_compy = FoodType(name: "carnivore", foodList: [primeMeat_Compy, blankFood, blankFood, blankFood, blankFood, blankFood, blankFood])
+
+let foodType_diplodocus = FoodType(name: "herbivore", foodList: [kibble_diplodocus, crops, mejoBerry, otherBerry, blankFood, blankFood, blankFood])
+
+let foodType_dungBeetle = FoodType(name: "coprophagic", foodList: [largeFeces, mediumFeces, smallFeces, blankFood, blankFood, blankFood, blankFood])
+
+let foodType_lystrosaurus = FoodType(name: "herbivore", foodList: [rareFlower, mejoBerry, otherBerry, blankFood, blankFood, blankFood, blankFood])
+
+let foodType_manta = FoodType(name: "other", foodList: [anglerGel, blankFood, blankFood, blankFood, blankFood, blankFood, blankFood, blankFood])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

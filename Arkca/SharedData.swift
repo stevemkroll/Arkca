@@ -160,9 +160,9 @@ var onesColumn = Int()
 
 var selectedLevel = Int()
 
-var selectedDino = Dino.init(name: " ", foodType: blankFoodType, favoriteKibble: " ", tameable: " ", rideable: " ", saddle: " ", dossier: " ", baseAffinity: 0, affinityPerLevel: 0, foodConsumptionRate: 0, consumptionRateMultiplier: 0, baseTorpor: 0, torporPerLevel: 0, torporRecoveryRate: 0, recoveryRateMultiplier: 0, wakingFoodRateMultiplier: nil, wakingFoodAffinityMultiplier: nil, tamingMethod: "standard", image: "blank")
+var selectedDino = Dino.init(name: " ", foodType: blankFoodType, favoriteKibble: " ", tameable: " ", rideable: " ", dossier: " ", baseAffinity: 0, affinityPerLevel: 0, foodConsumptionRate: 0, consumptionRateMultiplier: 0, baseTorpor: 0, torporPerLevel: 0, torporRecoveryRate: 0, recoveryRateMultiplier: 0, wakingFoodRateMultiplier: nil, wakingFoodAffinityMultiplier: nil, tamingMethod: "standard", image: "blank")
 
-var dossierDino = Dino.init(name: " ", foodType: blankFoodType, favoriteKibble: " ", tameable: " ", rideable: " ", saddle: " ", dossier: " ", baseAffinity: 0, affinityPerLevel: 0, foodConsumptionRate: 0, consumptionRateMultiplier: 0, baseTorpor: 0, torporPerLevel: 0, torporRecoveryRate: 0, recoveryRateMultiplier: 0, wakingFoodRateMultiplier: nil, wakingFoodAffinityMultiplier: nil, tamingMethod: "standard", image: "blank")
+var dossierDino = Dino.init(name: " ", foodType: blankFoodType, favoriteKibble: " ", tameable: " ", rideable: " ", dossier: " ", baseAffinity: 0, affinityPerLevel: 0, foodConsumptionRate: 0, consumptionRateMultiplier: 0, baseTorpor: 0, torporPerLevel: 0, torporRecoveryRate: 0, recoveryRateMultiplier: 0, wakingFoodRateMultiplier: nil, wakingFoodAffinityMultiplier: nil, tamingMethod: "standard", image: "blank")
 
 let dinoList = [
 //    allosaurus
@@ -182,20 +182,19 @@ let dinoList = [
     dimorphodon,
     diplodocus,
     direBear,
-//    direWolf,
-//    dodo,
-//    doedicurus,
-//    dunkleosteus,
-//    dungBeetle,
-//    eurypterid,
-//    gallimimus,
-//    gigantosaurus,
-//    gigantopithecus,
-//    ichthy,
-//    kairuku,
-//    lystrosaurus,
-//    mammoth,
-//    manta,
+    direWolf,
+    dodo,
+    doedicurus,
+    dungBeetle,
+    dunkleosteus,
+    gallimimus,
+    giganotosaurus,
+    gigantopithecus,
+    ichthy,
+    kairuku,
+    lystrosaurus,
+    mammoth,
+    manta,
 //    megaloceros,
 //    megalodon,
 //    mesopithecus,
