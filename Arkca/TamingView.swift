@@ -526,7 +526,7 @@ class TamingViewController: UIViewController {
         let food6Label = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         food6Label.backgroundColor = clearColor
         food6Label.hidden = true
-        food6Label.text = "Food6"
+        food6Label.text = " "
         food6Label.adjustsFontSizeToFitWidth = true
         foodLabels.append(food6Label)
         return food6Label
@@ -546,7 +546,7 @@ class TamingViewController: UIViewController {
         let food7Label = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         food7Label.backgroundColor = clearColor
         food7Label.hidden = true
-        food7Label.text = "Food7"
+        food7Label.text = " "
         food7Label.adjustsFontSizeToFitWidth = true
         foodLabels.append(food7Label)
         return food7Label

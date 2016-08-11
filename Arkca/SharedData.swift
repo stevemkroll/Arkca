@@ -175,52 +175,52 @@ let dinoList = [
     bronto,
     carbonemys,
     carno,
-//    castoroides
-//    compy
-//    dilo
-//    dimetrodon
-//    dimorphodon
-//    diplodocus
-//    direBear
-//    direWolf
-//    dodo
-//    doedicurus
-//    dunkleosteus
-//    dungBeetle
-//    eurypterid
-//    gallimimus
-//    gigantosaurus
-//    gigantopithecus
-//    ichthy
-//    kairuku
-//    lystrosaurus
-//    mammoth
-//    manta
-//    megaloceros
-//    megalodon
-//    mesopithecus
-//    mosasaurus
-//    onyc
-//    oviraptor
-//    pachy
-//    paracer
-//    parasaur
-//    pelagornis
-//    phiomia
-//    plesiosaur
-//    procoptodon
-//    pteranodon
-//    pulmonoscorpius
-//    quetz
-//    raptor
-//    rex
-//    sabertooth
-//    sarco
-//    spino
-//    stego
-//    terrorBird
-//    titanosaur
-//    trike
+    castoroides,
+    compy,
+    dilo,
+    dimetrodon,
+    dimorphodon,
+    diplodocus,
+    direBear,
+//    direWolf,
+//    dodo,
+//    doedicurus,
+//    dunkleosteus,
+//    dungBeetle,
+//    eurypterid,
+//    gallimimus,
+//    gigantosaurus,
+//    gigantopithecus,
+//    ichthy,
+//    kairuku,
+//    lystrosaurus,
+//    mammoth,
+//    manta,
+//    megaloceros,
+//    megalodon,
+//    mesopithecus,
+//    mosasaurus,
+//    onyc,
+//    oviraptor,
+//    pachy,
+//    paracer,
+//    parasaur,
+//    pelagornis,
+//    phiomia,
+//    plesiosaur,
+//    procoptodon,
+//    pteranodon,
+//    pulmonoscorpius,
+//    quetz,
+//    raptor,
+//    rex,
+//    sabertooth,
+//    sarco,
+//    spino,
+//    stego,
+//    terrorBird,
+//    titanosaur,
+//    trike,
 //    woollyRhino
 ]
 
@@ -288,6 +288,7 @@ func getTameTimeConversion() {
 func showCorrectLabels() {
     for i in 0...6 {
         switches[i].hidden = true
+        foodLabels[i].hidden = true
         qtyLabels[i].hidden = true
         timeLabels[i].hidden = true
     }
@@ -298,6 +299,7 @@ func showCorrectLabels() {
     }
     for i in 0...(nonBlankFood.count - 1) {
         switches[i].hidden = false
+        foodLabels[i].hidden = false
         qtyLabels[i].hidden = false
         timeLabels[i].hidden = false
     }
