@@ -93,8 +93,8 @@ class TamingViewController: UIViewController {
         }
         let pickerBox = UIView(frame: CGRect(x: x, y: y, width: w, height: h))
         pickerBox.backgroundColor = whiteColor
-        pickerBox.layer.borderColor = lightGreyColor.CGColor
-        pickerBox.layer.borderWidth = 1
+//        pickerBox.layer.borderColor = lightGreyColor.CGColor
+//        pickerBox.layer.borderWidth = 1
         pickerBox.alpha = 1
         addShadow(pickerBox)
         return pickerBox
@@ -218,8 +218,8 @@ class TamingViewController: UIViewController {
         }
         let narcoticsBox = UIView(frame: CGRect(x: x, y: y, width: w, height: h))
         narcoticsBox.backgroundColor = whiteColor
-        narcoticsBox.layer.borderColor = lightGreyColor.CGColor
-        narcoticsBox.layer.borderWidth = 1
+//        narcoticsBox.layer.borderColor = lightGreyColor.CGColor
+//        narcoticsBox.layer.borderWidth = 1
         narcoticsBox.alpha = 1
         addShadow(narcoticsBox)
         return narcoticsBox
@@ -334,8 +334,8 @@ class TamingViewController: UIViewController {
         }
         let tamingInfoBox = UIView(frame: CGRect(x: x, y: y, width: w, height: h))
         tamingInfoBox.backgroundColor = whiteColor
-        tamingInfoBox.layer.borderColor = lightGreyColor.CGColor
-        tamingInfoBox.layer.borderWidth = 1
+//        tamingInfoBox.layer.borderColor = lightGreyColor.CGColor
+//        tamingInfoBox.layer.borderWidth = 1
         tamingInfoBox.alpha = 1
         addShadow(tamingInfoBox)
         return tamingInfoBox
