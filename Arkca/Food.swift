@@ -60,7 +60,7 @@ let rareMushroom = Food(name: "rare mushroom", food: 75, affinity: 90)
 let anglerGel = Food(name: "angler gel", food: 8*3, affinity: 50)
 let brothOfEnlightenment = Food(name: "broth of enlightenment", food: 80, affinity: 1500)
 let rareFlower = Food(name: "rare flower", food: 15*2.333, affinity: 200)
-
+let speciesX = Food(name: "species x", food: 50, affinity: 45)
 
 
 

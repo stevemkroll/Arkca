@@ -242,7 +242,7 @@ class DossierViewController: UIViewController {
         dinoDossier.editable = false
         dinoDossier.userInteractionEnabled = false
         dinoDossier.text = dossierDino.dossier
-        dinoDossier.font = avenirFontSmall
+        dinoDossier.font = avenirFontXSmall
         dinoDossier.textColor = lightGreyColor
         dinoDossier.textAlignment = NSTextAlignment.Left
         return dinoDossier
