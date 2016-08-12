@@ -39,7 +39,7 @@ class TabBar: UITabBarController, UITabBarControllerDelegate {
         self.viewControllers = tabs
         
         for i in tabs {
-            i.tabBarItem.setTitleTextAttributes([NSFontAttributeName:avenirTabFont!], forState: UIControlState.Normal)
+            i.tabBarItem.setTitleTextAttributes([NSFontAttributeName:avenirFontXXSmall!], forState: UIControlState.Normal)
             i.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:whiteColor], forState: UIControlState.Selected)
             i.tabBarItem.selectedImage = tabBarIconOn
             i.tabBarItem.titlePositionAdjustment = UIOffset.init(horizontal: 0, vertical: -1)

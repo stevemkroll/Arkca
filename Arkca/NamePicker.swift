@@ -29,7 +29,7 @@ class NamePickerData: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSource
     func pickerView(pickerView: UIPickerView, viewForRow row: Int, forComponent component: Int, reusingView view: UIView?) -> UIView {
         let pickerLabel = UILabel()
         let titleData = dinoList[row].name.capitalizedString
-        let myTitle = NSAttributedString(string: titleData, attributes: [NSFontAttributeName:avenirFontMedium!,NSForegroundColorAttributeName:darkGreyColor])
+        let myTitle = NSAttributedString(string: titleData, attributes: [NSFontAttributeName:avenirFontLarge!,NSForegroundColorAttributeName:darkGreyColor])
         pickerLabel.attributedText = myTitle
         pickerLabel.textAlignment = NSTextAlignment.Center
         return pickerLabel

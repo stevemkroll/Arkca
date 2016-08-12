@@ -287,7 +287,7 @@ class TamingViewController: UIViewController {
         let narcoticsNeeded = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         narcoticsNeeded.text = "0"
         narcoticsNeeded.backgroundColor = clearColor
-        narcoticsNeeded.font = avenirFontLarge
+        narcoticsNeeded.font = avenirFontXLarge
         narcoticsNeeded.textColor = darkGreyColor
         narcoticsNeeded.textAlignment = alignCenter
         narcoticsNeeded.alpha = 1
@@ -311,7 +311,7 @@ class TamingViewController: UIViewController {
         let narcoberriesNeeded = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         narcoberriesNeeded.text = "0"
         narcoberriesNeeded.backgroundColor = clearColor
-        narcoberriesNeeded.font = avenirFontLarge
+        narcoberriesNeeded.font = avenirFontXLarge
         narcoberriesNeeded.textColor = darkGreyColor
         narcoberriesNeeded.textAlignment = alignCenter
         narcoberriesNeeded.alpha = 1

@@ -112,7 +112,7 @@ class DossierViewController: UIViewController {
         }
         let dinoTitle = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         dinoTitle.text = dossierDino.name.uppercaseString
-        dinoTitle.font = avenirFontXLarge
+        dinoTitle.font = avenirFontXXLarge
         dinoTitle.textColor = darkGreyColor
         dinoTitle.textAlignment = NSTextAlignment.Center
         dinoTitle.adjustsFontSizeToFitWidth = true
@@ -135,7 +135,7 @@ class DossierViewController: UIViewController {
         }
         let foodTypeLabel = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         foodTypeLabel.text = "Food Type:"
-        foodTypeLabel.font = avenirFontLarge
+        foodTypeLabel.font = avenirFontXLarge
         foodTypeLabel.textColor = darkGreyColor
         foodTypeLabel.adjustsFontSizeToFitWidth = true
         return foodTypeLabel
@@ -156,7 +156,7 @@ class DossierViewController: UIViewController {
         }
         let kibbleTypeLabel = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         kibbleTypeLabel.text = "Kibble Type:"
-        kibbleTypeLabel.font = avenirFontLarge
+        kibbleTypeLabel.font = avenirFontXLarge
         kibbleTypeLabel.textColor = darkGreyColor
         kibbleTypeLabel.adjustsFontSizeToFitWidth = true
         return kibbleTypeLabel
@@ -177,7 +177,7 @@ class DossierViewController: UIViewController {
         }
         let tameableLabel = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         tameableLabel.text = "Tameable:"
-        tameableLabel.font = avenirFontLarge
+        tameableLabel.font = avenirFontXLarge
         tameableLabel.textColor = darkGreyColor
         tameableLabel.adjustsFontSizeToFitWidth = true
         return tameableLabel
@@ -198,7 +198,7 @@ class DossierViewController: UIViewController {
         }
         let rideableLabel = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         rideableLabel.text = "Rideable:"
-        rideableLabel.font = avenirFontLarge
+        rideableLabel.font = avenirFontXLarge
         rideableLabel.textColor = darkGreyColor
         rideableLabel.adjustsFontSizeToFitWidth = true
         return rideableLabel
@@ -219,7 +219,7 @@ class DossierViewController: UIViewController {
         }
         let dossierLabel = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         dossierLabel.text = "Dossier:"
-        dossierLabel.font = avenirFontLarge
+        dossierLabel.font = avenirFontXLarge
         dossierLabel.textColor = darkGreyColor
         dossierLabel.adjustsFontSizeToFitWidth = true
         return dossierLabel
@@ -242,7 +242,12 @@ class DossierViewController: UIViewController {
         dinoDossier.editable = false
         dinoDossier.userInteractionEnabled = false
         dinoDossier.text = dossierDino.dossier
-        dinoDossier.font = avenirFontXSmall
+        switch screenWidth {
+        case 320: dinoDossier.font = avenirFontXSmall
+        case 375: dinoDossier.font = avenirFontSmall
+        case 414: dinoDossier.font = avenirFontMedium
+        default: break
+        }
         dinoDossier.textColor = lightGreyColor
         dinoDossier.textAlignment = NSTextAlignment.Left
         return dinoDossier
@@ -263,7 +268,7 @@ class DossierViewController: UIViewController {
         }
         let dinoFoodType = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         dinoFoodType.text = dossierDino.foodType.name.capitalizedString
-        dinoFoodType.font = avenirFontMedium
+        dinoFoodType.font = avenirFontLarge
         dinoFoodType.textColor = lightGreyColor
         dinoFoodType.adjustsFontSizeToFitWidth = true
         return dinoFoodType
@@ -284,7 +289,7 @@ class DossierViewController: UIViewController {
         }
         let dinoKibbleType = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         dinoKibbleType.text = dossierDino.favoriteKibble.capitalizedString
-        dinoKibbleType.font = avenirFontMedium
+        dinoKibbleType.font = avenirFontLarge
         dinoKibbleType.textColor = lightGreyColor
         dinoKibbleType.adjustsFontSizeToFitWidth = true
         return dinoKibbleType
@@ -305,7 +310,7 @@ class DossierViewController: UIViewController {
         }
         let dinoTameable = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         dinoTameable.text = dossierDino.tameable.capitalizedString
-        dinoTameable.font = avenirFontMedium
+        dinoTameable.font = avenirFontLarge
         dinoTameable.textColor = lightGreyColor
         dinoTameable.adjustsFontSizeToFitWidth = true
         return dinoTameable
@@ -326,7 +331,7 @@ class DossierViewController: UIViewController {
         }
         let dinoRideable = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
         dinoRideable.text = dossierDino.rideable.capitalizedString
-        dinoRideable.font = avenirFontMedium
+        dinoRideable.font = avenirFontLarge
         dinoRideable.textColor = lightGreyColor
         dinoRideable.adjustsFontSizeToFitWidth = true
         return dinoRideable

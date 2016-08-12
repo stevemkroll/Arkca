@@ -34,12 +34,13 @@ let lightGreyColor = UIColor(red: 0.53, green: 0.53, blue: 0.53, alpha: 1)
 let whiteColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
 let clearColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0)
 
-let avenirFontXLarge = UIFont(name: "Avenir", size: 36)
-let avenirFontLarge = UIFont(name: "Avenir", size: 20)
-let avenirFontMedium = UIFont(name: "Avenir", size: 18)
+let avenirFontXXLarge = UIFont(name: "Avenir", size: 36)
+let avenirFontXLarge = UIFont(name: "Avenir", size: 20)
+let avenirFontLarge = UIFont(name: "Avenir", size: 18)
+let avenirFontMedium = UIFont(name: "Avenir", size: 16)
 let avenirFontSmall = UIFont(name: "Avenir", size: 14)
 let avenirFontXSmall = UIFont(name: "Avenir", size: 12)
-let avenirTabFont = UIFont(name: "Avenir", size: 10)
+let avenirFontXXSmall = UIFont(name: "Avenir", size: 10)
 
 let alignCenter = NSTextAlignment.Center
 

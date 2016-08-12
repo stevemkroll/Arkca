@@ -29,7 +29,7 @@ class MyCell: UITableViewCell {
     var nameLabel: UILabel = {
         let label = UILabel(frame: CGRect(x: 80, y: 0, width: UIScreen.mainScreen().bounds.width - 110, height: 80))
         label.text = "Sample Text"
-        label.font = avenirFontXLarge
+        label.font = avenirFontXXLarge
         label.textColor = darkGreyColor
         label.adjustsFontSizeToFitWidth = true
         label.textAlignment = NSTextAlignment.Center
