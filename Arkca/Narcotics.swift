@@ -26,4 +26,3 @@ let narcoBerries = Narcotics.init(torpor: 7.5, time: 3.0, rate: 2.5)
 
 let torporExponent = 0.800403041
 let torporCoefficient = 22.39671632
-

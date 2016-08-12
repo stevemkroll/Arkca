@@ -23,39 +23,26 @@ class TabBar: UITabBarController, UITabBarControllerDelegate {
         let tamingTab = TamingNavBar(rootViewController: TamingViewController())
         let tamingIcon = UITabBarItem(title: "Taming", image: tabBarIconOff, tag: 1)
         
+        let cookingTab = CraftingNavBar(rootViewController: CookingViewController())
+        let cookingIcon = UITabBarItem(title: "Cooking", image: tabBarIconOff, tag: 2)
+        
+        let craftingTab = CraftingNavBar(rootViewController: CraftingViewController())
+        let craftingIcon = UITabBarItem(title: "Crafting", image: tabBarIconOff, tag: 3)
+        
         dossierTab.tabBarItem = dossierIcon
         tamingTab.tabBarItem = tamingIcon
+        cookingTab.tabBarItem = cookingIcon
+        craftingTab.tabBarItem = craftingIcon
         
-        let tabs = [dossierTab,tamingTab]
+        let tabs = [dossierTab, tamingTab, cookingTab, craftingTab]
         
         self.viewControllers = tabs
         
-        dossierIcon.setTitleTextAttributes([NSFontAttributeName:avenirTabFont!], forState: UIControlState.Normal)
-        dossierIcon.setTitleTextAttributes([NSForegroundColorAttributeName:whiteColor], forState: UIControlState.Selected)
-        dossierIcon.selectedImage = tabBarIconOn
-        
-        dossierIcon.titlePositionAdjustment = UIOffset.init(horizontal: 0, vertical: -2)
-        
-        tamingIcon.setTitleTextAttributes([NSFontAttributeName:avenirTabFont!], forState: UIControlState.Normal)
-        tamingIcon.setTitleTextAttributes([NSForegroundColorAttributeName:whiteColor], forState: UIControlState.Selected)
-        tamingIcon.selectedImage = tabBarIconOn
-        
-        tamingIcon.titlePositionAdjustment = UIOffset.init(horizontal: 0, vertical: -2)
-        
+        for i in tabs {
+            i.tabBarItem.setTitleTextAttributes([NSFontAttributeName:avenirTabFont!], forState: UIControlState.Normal)
+            i.tabBarItem.setTitleTextAttributes([NSForegroundColorAttributeName:whiteColor], forState: UIControlState.Selected)
+            i.tabBarItem.selectedImage = tabBarIconOn
+            i.tabBarItem.titlePositionAdjustment = UIOffset.init(horizontal: 0, vertical: -1)
+        }
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

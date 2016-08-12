@@ -83,7 +83,3 @@ class LevelPickerData: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSourc
         
     }
 }
-
-
-
-

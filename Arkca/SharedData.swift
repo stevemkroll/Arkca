@@ -322,5 +322,3 @@ func getNarcosNeeded() {
         maxNarcoberries = [0,0,0,0,0,0,0]
     }
 }
-
-

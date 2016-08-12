@@ -48,31 +48,3 @@ let foodType_mosa = FoodType(name: "carnivore", foodList: [kibble_Mosasaurus, ra
 let foodType_oviraptor = FoodType(name: "ovivore", foodList: [giga_Egg, quetz_Egg, rex_Egg, spino_Egg, bronto_Egg, carno_Egg, dodo_Egg])
 
 let foodType_procoptodon = FoodType(name: "other", foodList: [rareFlower, speciesX, blankFood, blankFood, blankFood, blankFood, blankFood])
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

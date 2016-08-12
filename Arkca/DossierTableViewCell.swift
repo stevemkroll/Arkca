@@ -43,7 +43,3 @@ class MyCell: UITableViewCell {
         
     }
 }
-
-
-
-

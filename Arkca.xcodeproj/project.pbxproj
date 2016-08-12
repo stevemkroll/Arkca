@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAAD0D9D1D5E1B2900AAA4C5 /* CraftingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD0D9C1D5E1B2900AAA4C5 /* CraftingView.swift */; };
+		AAAD0D9F1D5E1D9100AAA4C5 /* CraftingNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD0D9E1D5E1D9100AAA4C5 /* CraftingNavBar.swift */; };
+		AAAD0DA11D5E23E900AAA4C5 /* CookingNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD0DA01D5E23E900AAA4C5 /* CookingNavBar.swift */; };
+		AAAD0DA41D5E246600AAA4C5 /* CookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAD0DA31D5E246600AAA4C5 /* CookingView.swift */; };
 		AAFCB6201D5A126C0029E946 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB61F1D5A126C0029E946 /* AppDelegate.swift */; };
 		AAFCB6271D5A126C0029E946 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFCB6261D5A126C0029E946 /* Assets.xcassets */; };
 		AAFCB6341D5A14EC0029E946 /* Dinos.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFCB6331D5A14EC0029E946 /* Dinos.swift */; };
@@ -26,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAAD0D9C1D5E1B2900AAA4C5 /* CraftingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CraftingView.swift; sourceTree = "<group>"; };
+		AAAD0D9E1D5E1D9100AAA4C5 /* CraftingNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CraftingNavBar.swift; sourceTree = "<group>"; };
+		AAAD0DA01D5E23E900AAA4C5 /* CookingNavBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookingNavBar.swift; sourceTree = "<group>"; };
+		AAAD0DA31D5E246600AAA4C5 /* CookingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CookingView.swift; sourceTree = "<group>"; };
 		AAFCB61C1D5A126C0029E946 /* Arkca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arkca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFCB61F1D5A126C0029E946 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAFCB6261D5A126C0029E946 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +65,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AAAD0D9A1D5E19FC00AAA4C5 /* Crafting */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD0D9E1D5E1D9100AAA4C5 /* CraftingNavBar.swift */,
+				AAAD0D9C1D5E1B2900AAA4C5 /* CraftingView.swift */,
+			);
+			name = Crafting;
+			sourceTree = "<group>";
+		};
+		AAAD0D9B1D5E1A8A00AAA4C5 /* Cooking */ = {
+			isa = PBXGroup;
+			children = (
+				AAAD0DA01D5E23E900AAA4C5 /* CookingNavBar.swift */,
+				AAAD0DA31D5E246600AAA4C5 /* CookingView.swift */,
+			);
+			name = Cooking;
+			sourceTree = "<group>";
+		};
 		AAFCB6131D5A126C0029E946 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +107,8 @@
 				AAFCB63B1D5A16580029E946 /* Tab Bar */,
 				AAFCB63E1D5A16C30029E946 /* Dossier */,
 				AAFCB6471D5A19250029E946 /* Taming */,
+				AAAD0D9B1D5E1A8A00AAA4C5 /* Cooking */,
+				AAAD0D9A1D5E19FC00AAA4C5 /* Crafting */,
 				AAFCB6501D5A1B600029E946 /* Shared Data */,
 			);
 			path = Arkca;
@@ -217,16 +245,20 @@
 				AAFCB6201D5A126C0029E946 /* AppDelegate.swift in Sources */,
 				AAFCB6441D5A18530029E946 /* DossierTableViewCell.swift in Sources */,
 				AAFCB64B1D5A19D00029E946 /* TamingView.swift in Sources */,
+				AAAD0D9F1D5E1D9100AAA4C5 /* CraftingNavBar.swift in Sources */,
 				AAFCB6521D5A1BA60029E946 /* SharedData.swift in Sources */,
 				AAFCB63A1D5A15D80029E946 /* Narcotics.swift in Sources */,
 				AAFCB64D1D5A1A820029E946 /* NamePicker.swift in Sources */,
 				AAFCB6341D5A14EC0029E946 /* Dinos.swift in Sources */,
+				AAAD0DA41D5E246600AAA4C5 /* CookingView.swift in Sources */,
 				AAFCB6491D5A19990029E946 /* TamingNavBar.swift in Sources */,
 				AAFCB6461D5A18C90029E946 /* DossierDinoInfoView.swift in Sources */,
 				AAFCB63D1D5A167E0029E946 /* TabBar.swift in Sources */,
 				AAFCB6361D5A151D0029E946 /* Food.swift in Sources */,
 				AAFCB6421D5A17AE0029E946 /* DossierTableView.swift in Sources */,
 				AAFCB6401D5A172C0029E946 /* DossierNavBar.swift in Sources */,
+				AAAD0DA11D5E23E900AAA4C5 /* CookingNavBar.swift in Sources */,
+				AAAD0D9D1D5E1B2900AAA4C5 /* CraftingView.swift in Sources */,
 				AAFCB64F1D5A1AE50029E946 /* LevelPicker.swift in Sources */,
 				AAFCB6381D5A159C0029E946 /* FoodType.swift in Sources */,
 			);

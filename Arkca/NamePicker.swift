@@ -61,9 +61,3 @@ class NamePickerData: UIPickerView, UIPickerViewDelegate, UIPickerViewDataSource
         
     }
 }
-
-
-
-
-
-

@@ -41,9 +41,3 @@ class DossierTableViewController: UITableViewController {
         
     }
 }
-
-
-
-
-
-

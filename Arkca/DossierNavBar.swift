@@ -19,11 +19,3 @@ class DossierNavBar: UINavigationController {
         self.navigationBar.tintColor = whiteColor
     }
 }
-
-
-
-
-
-
-
-
