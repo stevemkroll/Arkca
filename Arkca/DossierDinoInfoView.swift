@@ -28,7 +28,7 @@ class DossierViewController: UIViewController {
         }
         let background = UIImageView(frame: CGRect(x: x, y: y, width: w, height: h))
         background.contentMode = UIViewContentMode.ScaleAspectFill
-        background.image = UIImage(named: "Background1")
+        background.image = UIImage(named: "Background")
         background.alpha = 1
         return background
     }()

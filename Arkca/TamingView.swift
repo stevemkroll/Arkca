@@ -28,7 +28,7 @@ class TamingViewController: UIViewController {
         }
         let backgroundImage = UIImageView(frame: CGRect(x: x, y: y, width: w, height: h))
         backgroundImage.contentMode = UIViewContentMode.ScaleAspectFill
-        backgroundImage.image = UIImage(named: "Background1")
+        backgroundImage.image = UIImage(named: "Background")
         backgroundImage.alpha = 0.5
         return backgroundImage
     }()
