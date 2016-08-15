@@ -55,8 +55,17 @@ var narcoticsNeededLabels = [UILabel]()
 var activeSwitch = Int()
 
 func formatSwitches() {
+    var sx = CGFloat()
+    var sy = CGFloat()
+    
+    switch UIScreen.mainScreen().bounds.width {
+    case 320: sx = 0.75; sy = 0.75
+    case 375: sx = 0.85; sy = 0.85
+    case 414: sx = 0.95; sy = 0.95
+    default: break
+    }
     for i in switches {
-        i.transform = CGAffineTransformMakeScale(0.75, 0.75)
+        i.transform = CGAffineTransformMakeScale(sx, sy)
     }
 }
 
