@@ -61,7 +61,7 @@ func formatSwitches() {
     switch UIScreen.mainScreen().bounds.width {
     case 320: sx = 0.75; sy = 0.75
     case 375: sx = 0.85; sy = 0.85
-    case 414: sx = 0.95; sy = 0.95
+    case 414: sx = 0.95; sy = 0.90
     default: break
     }
     for i in switches {
