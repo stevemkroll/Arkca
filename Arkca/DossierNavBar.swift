@@ -17,5 +17,6 @@ class DossierNavBar: UINavigationController {
         self.navigationBar.translucent = false
         self.navigationBar.titleTextAttributes = [NSFontAttributeName: avenirFontXLarge!, NSForegroundColorAttributeName : whiteColor]
         self.navigationBar.tintColor = whiteColor
+        
     }
 }

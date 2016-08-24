@@ -971,7 +971,7 @@ class TamingViewController: UIViewController {
         return switch7
     }()
     
-    //MARK: Switch Selected Functions
+    //MARK: Functions
     
     func switch1Selected() {
         switches[0].setOn(true, animated: true)
@@ -1099,10 +1099,81 @@ class TamingViewController: UIViewController {
         }
     }
     
+    func setupNavBarButtons() {
+        let settingsButton = UIBarButtonItem()
+        settingsButton.image = UIImage(named: "SettingsIcon")
+        settingsButton.target = self
+        settingsButton.action = #selector(showTamingSettings)
+        
+        navigationItem.rightBarButtonItem = settingsButton
+        navigationItem.rightBarButtonItem?.tintColor = whiteColor
+    }
+    
+    let dimView = UIView()
+    let tamingSettingsView = UIView()
+    
+    @objc func showTamingSettings() {
+        if let window = UIApplication.sharedApplication().keyWindow {
+            dimView.backgroundColor = UIColor(white: 0, alpha: 0.5)
+            dimView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(dismissTamingSettings)))
+            dimView.frame = window.frame
+            dimView.alpha = 0
+            
+            var x = Double()
+            var y = Double()
+            var w = Double()
+            var h = Double()
+            
+            switch UIScreen.mainScreen().bounds.width {
+            case 320: x = (320/320)*0; y = (568/568)*334; w = (320/320)*320; h = (568/568)*234
+            case 375: x = (375/320)*0; y = (667/568)*334; w = (375/320)*320; h = (667/568)*234
+            case 414: x = (414/320)*0; y = (736/568)*334; w = (414/320)*320; h = (736/568)*234
+            default: break
+            }
+            
+            tamingSettingsView.backgroundColor = whiteColor
+            tamingSettingsView.frame = CGRect(x: x, y: Double(window.frame.height), width: w , height: h)
+            
+            window.addSubview(dimView)
+            window.addSubview(tamingSettingsView)
+            
+            UIView.animateWithDuration(0.25, animations: {
+               
+                self.dimView.alpha = 1
+                self.tamingSettingsView.frame = CGRect(x: x, y: y, width: w, height: h)
+                
+            })
+        }
+    }
+    
+    func dismissTamingSettings() {
+        UIView.animateWithDuration(0.25, animations: {
+            
+            let window = UIApplication.sharedApplication().keyWindow
+            
+            var x = Double()
+            var w = Double()
+            var h = Double()
+            
+            switch UIScreen.mainScreen().bounds.width {
+            case 320: x = (320/320)*0; w = (320/320)*320; h = (568/568)*234
+            case 375: x = (375/320)*0; w = (375/320)*320; h = (667/568)*234
+            case 414: x = (414/320)*0; w = (414/320)*320; h = (736/568)*234
+            default: break
+            }
+
+            self.dimView.alpha = 0
+            self.tamingSettingsView.frame = CGRect(x: x, y: Double(window!.frame.height), width: w, height: h)
+        })
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         navigationItem.title = "Taming"
+        
+        setupNavBarButtons()
+        
         view.backgroundColor = whiteColor
         
         namePicker.delegate = namePickerData
@@ -1112,7 +1183,6 @@ class TamingViewController: UIViewController {
         levelPicker.dataSource = levelPickerData
         
         view.addSubview(backgroundImage)
-        
         view.addSubview(scrollView)
         
         scrollView.addSubview(container)
