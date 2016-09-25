@@ -1099,6 +1099,8 @@ class TamingViewController: UIViewController {
         }
     }
     
+    //MARK: Tame Settings
+    
     func setupNavBarButtons() {
         let settingsButton = UIBarButtonItem()
         settingsButton.image = UIImage(named: "SettingsIcon")
@@ -1137,6 +1139,11 @@ class TamingViewController: UIViewController {
             window.addSubview(dimView)
             window.addSubview(tamingSettingsView)
             
+            tamingSettingsView.addSubview(tamingMultiplierLabel)
+            tamingSettingsView.addSubview(settingsSeperator)
+            tamingSettingsView.addSubview(currentMultiplierLabel)
+            tamingSettingsView.addSubview(tamingMultiplierSlider)
+            
             UIView.animateWithDuration(0.25, animations: {
                
                 self.dimView.alpha = 1
@@ -1166,6 +1173,84 @@ class TamingViewController: UIViewController {
             self.tamingSettingsView.frame = CGRect(x: x, y: Double(window!.frame.height), width: w, height: h)
         })
     }
+    
+    let tamingMultiplierLabel: UILabel = {
+        var x = Double()
+        var y = Double()
+        var w = Double()
+        var h = Double()
+        switch UIScreen.mainScreen().bounds.width {
+        case 320: x = (320/320)*0; y = (568/568)*0; w = (320/320)*320; h = (568/568)*54
+        case 375: x = (375/320)*0; y = (667/568)*0; w = (375/320)*320; h = (667/568)*54
+        case 414: x = (414/320)*0; y = (736/568)*0; w = (414/320)*320; h = (736/568)*54
+        default: break
+        }
+        let tamingMultiplierLabel = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
+        tamingMultiplierLabel.text = "Taming Multiplier"
+        tamingMultiplierLabel.font = avenirFontMedium
+        tamingMultiplierLabel.textAlignment = NSTextAlignment.Center
+        tamingMultiplierLabel.adjustsFontSizeToFitWidth = true
+        tamingMultiplierLabel.textColor = lightGreyColor
+        tamingMultiplierLabel.backgroundColor = clearColor
+        tamingMultiplierLabel.alpha = 1
+        return tamingMultiplierLabel
+    }()
+    
+    let settingsSeperator: UIView = {
+        var x = Double()
+        var y = Double()
+        var w = Double()
+        var h = Double()
+        switch UIScreen.mainScreen().bounds.width {
+        case 320: x = (320/320)*10; y = (568/568)*54; w = (320/320)*300; h = (568/568)*1
+        case 375: x = (375/320)*10; y = (667/568)*54; w = (375/320)*300; h = (667/568)*1
+        case 414: x = (414/320)*10; y = (736/568)*54; w = (414/320)*300; h = (736/568)*1
+        default: break
+        }
+        let settingsSeperator = UIView(frame: CGRect(x: x, y: y, width: w, height: h))
+        settingsSeperator.backgroundColor = lightGreyColor
+        settingsSeperator.alpha = 0.25
+        return settingsSeperator
+    }()
+    
+    let currentMultiplierLabel: UILabel = {
+        var x = Double()
+        var y = Double()
+        var w = Double()
+        var h = Double()
+        switch UIScreen.mainScreen().bounds.width {
+        case 320: x = (320/320)*0; y = (568/568)*64; w = (320/320)*320; h = (568/568)*54
+        case 375: x = (375/320)*0; y = (667/568)*64; w = (375/320)*320; h = (667/568)*54
+        case 414: x = (414/320)*0; y = (736/568)*64; w = (414/320)*320; h = (736/568)*54
+        default: break
+        }
+        let currentMultiplierLabel = UILabel(frame: CGRect(x: x, y: y, width: w, height: h))
+        currentMultiplierLabel.text = "1"
+        currentMultiplierLabel.font = avenirFontMedium
+        currentMultiplierLabel.textAlignment = NSTextAlignment.Center
+        currentMultiplierLabel.adjustsFontSizeToFitWidth = true
+        currentMultiplierLabel.textColor = lightGreyColor
+        currentMultiplierLabel.backgroundColor = clearColor
+        currentMultiplierLabel.alpha = 1
+        return currentMultiplierLabel
+    }()
+    
+    let tamingMultiplierSlider: UISlider = {
+        var x = Double()
+        var y = Double()
+        var w = Double()
+        var h = Double()
+        switch UIScreen.mainScreen().bounds.width {
+        case 320: x = (320/320)*20; y = (568/568)*114; w = (320/320)*280; h = (568/568)*30
+        case 375: x = (375/320)*20; y = (667/568)*114; w = (375/320)*280; h = (667/568)*30
+        case 414: x = (414/320)*20; y = (736/568)*114; w = (414/320)*280; h = (736/568)*30
+        default: break
+        }
+        let tamingMultiplierSlider = UISlider(frame: CGRect(x: x, y: y, width: w, height: h))
+        tamingMultiplierSlider.minimumTrackTintColor = veryLightGreyColor
+        tamingMultiplierSlider.maximumTrackTintColor = veryLightGreyColor
+        return tamingMultiplierSlider
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -30,7 +30,8 @@ import UIKit
 //MARK: Shared Visual Data
 
 let darkGreyColor = UIColor(red: 0.29, green: 0.29, blue: 0.29, alpha: 1)
-let lightGreyColor = UIColor(red: 0.53, green: 0.53, blue: 0.53, alpha: 1)
+let lightGreyColor = UIColor(red: 0.54, green: 0.54, blue: 0.54, alpha: 1)
+let veryLightGreyColor = UIColor(red: 0.79, green: 0.79, blue: 0.79, alpha: 1)
 let whiteColor = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
 let clearColor = UIColor(red: 1, green: 1, blue: 1, alpha: 0)
 
